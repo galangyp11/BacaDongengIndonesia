@@ -23,7 +23,7 @@ const Chat8 = ({ dongengChat8 }) => {
             <TypeAnimation
                 className="chat-box-text"
                 cursor={false}
-                sequence={[ dongengChat8, 1000 ]}
+                sequence={[ "Aku akan membuat perutku kenyang, agar tidak perlu berkali-kali kembali ke ladang ini. Kalau perlu, aku akan membawa timun-timun itu pulang untuk persediaan makanan", 1000 ]}
                 speed={99}
                 wrapper="h3"
                 repeat="1"

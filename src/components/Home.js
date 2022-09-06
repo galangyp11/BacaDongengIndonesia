@@ -1,10 +1,11 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import { HashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
 
 import gambar1 from "../img/home/Thumbnail-kancil.png"
-import gambar2 from "../img/home/mikewazowski.jpg"
+import gambar2 from "../img/home/Thumbnail-sangkuriang.png"
 import awan1 from "../img/home/awan1.png"
 import awan2 from "../img/home/awan2.png"
 import awan3 from "../img/home/awan3.png"
@@ -13,6 +14,7 @@ import awan5 from "../img/home/awan5.png"
 import awan6 from "../img/home/awan6.png"
 
 import "./Home.css";
+import Opening from "../pages/Opening";
 
 const Home = ({ dongengs }) => {
 
@@ -145,26 +147,24 @@ const Home = ({ dongengs }) => {
                 <section id="section-two">
                           <h2 className="list-judul">Daftar Dongeng</h2>
                                 <div className="list">
-                                        { dongengs.map((dongeng) => (
                                             <motion.div
                                             className="hoverList"
-                                            key={dongeng.id}
                                             whileHover={{ scale: 1.1 }}
                                             whileTap={{ scale: 0.9 }}
                                             >
                                             <div className="card" >
-                                                <Link to={ `/${dongeng.id}` }>    
+                                                <Link to="./CeritaDetail">    
                                                     <img src={gambar1} className="card-img-top" />
                                                     <div className="card-body">
                                                         <div className="card-text">
-                                                            <h2 className="judul-dongeng">{ dongeng.judul_dongeng }</h2>
+                                                            <h2 className="judul-dongeng">Si Kancil dan Pak Tani</h2>
                                                         </div>
                                                     </div>
                                                 </Link>
                                             </div>
                                             
                                             </motion.div>
-                                        )) }
+
 
                                             <motion.div
                                             className="hoverList"

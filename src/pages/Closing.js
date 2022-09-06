@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import "./pages.css";
 
 const Closing = () => {
+
+    function refresh(){
+        window.location.reload(); 
+    }
+
     return ( 
         <div className="closing">
             <h1 className="closing-selesai">SELESAI</h1>
@@ -13,7 +18,8 @@ const Closing = () => {
                     whileTap={{ scale:0.9 }}
                     transition={{ ease:"linear", duration:0.2 }}
                 >
-                    <p className="tombol-baca-lagi" style={{ color:"white", padding:"10px" }}>Baca Lagi</p>              
+                    <p className="tombol-baca-lagi" onClick={ refresh } style={{ color:"white", padding:"10px" }}>Baca Lagi</p>
+                    
                 </motion.div>
                 <motion.div
                     className="baca-lagi"

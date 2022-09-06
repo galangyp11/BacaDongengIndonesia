@@ -59,11 +59,11 @@ function CeritaDetail () {
                 
             } 
             else if(nomorHal === 2) {
-                setHalamans( <Halaman2 dongengHalaman2={dongeng.halaman2}/> )
+                setHalamans( <Chat2 dongengChat2={dongeng.chat_box2}/>)
                 
             }
             else if(nomorHal === 3) {
-                setHalamans( <Chat2 dongengChat2={dongeng.chat_box2}/> )
+                setHalamans( <Halaman2 dongengHalaman2={dongeng.halaman2}/>  )
                 
             }
             else if(nomorHal === 4) {
@@ -195,11 +195,11 @@ function CeritaDetail () {
                 
             }
             else if(nomorHal === 5) {
-                setHalamans( <Chat2 dongengChat2={dongeng.chat_box2}/> )
+                setHalamans( <Halaman2 dongengHalaman2={dongeng.halaman2} /> )
                 
             }
             else if(nomorHal === 4) {
-                setHalamans( <Halaman2 dongengHalaman2={dongeng.halaman2} /> )
+                setHalamans( <Chat2 dongengChat2={dongeng.chat_box2}/>)
                 
             }                  
             else if(nomorHal === 3) {
