@@ -19,7 +19,7 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <Home />
+              <ListDongeng />
             </Route>
 
             <Route exact path="/about">
