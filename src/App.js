@@ -6,13 +6,13 @@ import CeritaDetail from './components/CeritaDetail';
 import ListDongeng from './components/ListDongeng';
 import NavbarB from './pages/NavbarB';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 function App() {
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         
         <div className="content">
