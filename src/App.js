@@ -4,6 +4,7 @@ import React from 'react';
 import About from './components/About';
 import CeritaDetail from './components/CeritaDetail';
 import ListDongeng from './components/ListDongeng';
+import Home from './components/Home';
 import NavbarB from './pages/NavbarB';
 
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
@@ -18,7 +19,7 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <ListDongeng />
+              <Home />
             </Route>
 
             <Route exact path="/about">
