@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BacaDongengIndonesia/static/css/main.03098289.css",
-    "main.js": "/BacaDongengIndonesia/static/js/main.8d850dd7.js",
+    "main.js": "/BacaDongengIndonesia/static/js/main.a9322ae6.js",
     "static/media/gambar-hal4.3.png": "/BacaDongengIndonesia/static/media/gambar-hal4.3.9228994f4778670970ea.png",
     "static/media/bg-isi.png": "/BacaDongengIndonesia/static/media/bg-isi.0db5223d9171c213ec8e.png",
     "static/media/opening.jpg": "/BacaDongengIndonesia/static/media/opening.850491962f60cd590e38.jpg",
@@ -12,13 +12,13 @@
     "static/media/gambar-hal2.png": "/BacaDongengIndonesia/static/media/gambar-hal2.2217c7532da99c897414.png",
     "static/media/Thumbnail-kancil.png": "/BacaDongengIndonesia/static/media/Thumbnail-kancil.79a383151a426e7879e1.png",
     "static/media/gambar-hal9.png": "/BacaDongengIndonesia/static/media/gambar-hal9.3fb1180c11ac38ec396d.png",
+    "static/media/Thumbnail-sangkuriang.png": "/BacaDongengIndonesia/static/media/Thumbnail-sangkuriang.5e0ba8a783b26de8cb45.png",
     "static/media/gambar-hal4.1.png": "/BacaDongengIndonesia/static/media/gambar-hal4.1.a6a99954424ce5b10aec.png",
     "static/media/Logo-BDI.png": "/BacaDongengIndonesia/static/media/Logo-BDI.5b641db95c3861b263c2.png",
     "static/media/gambar-hal1.png": "/BacaDongengIndonesia/static/media/gambar-hal1.e4867aa6d238fc7c4220.png",
     "static/media/chat_box2.png": "/BacaDongengIndonesia/static/media/chat_box2.649b6c9ddba3b62603c5.png",
     "static/media/gambar-hal8.png": "/BacaDongengIndonesia/static/media/gambar-hal8.511b58a9a38b332f2efd.png",
     "static/media/gambar-hal3.png": "/BacaDongengIndonesia/static/media/gambar-hal3.8913e9229b2cb9e2ccf1.png",
-    "static/media/mikewazowski.jpg": "/BacaDongengIndonesia/static/media/mikewazowski.332bb976eadf7f14d412.jpg",
     "static/media/gambar-hal5.2.png": "/BacaDongengIndonesia/static/media/gambar-hal5.2.ad4b211986e97303aaab.png",
     "static/media/gambar-hal5.4.png": "/BacaDongengIndonesia/static/media/gambar-hal5.4.4bde1416060ea83c8ef9.png",
     "static/media/gambar-hal5.3.png": "/BacaDongengIndonesia/static/media/gambar-hal5.3.bad1d05abcc0684e3ad1.png",
@@ -42,10 +42,10 @@
     "static/media/lingkaranpt.png": "/BacaDongengIndonesia/static/media/lingkaranpt.e0b691060a1fbc8c1868.png",
     "index.html": "/BacaDongengIndonesia/index.html",
     "main.03098289.css.map": "/BacaDongengIndonesia/static/css/main.03098289.css.map",
-    "main.8d850dd7.js.map": "/BacaDongengIndonesia/static/js/main.8d850dd7.js.map"
+    "main.a9322ae6.js.map": "/BacaDongengIndonesia/static/js/main.a9322ae6.js.map"
   },
   "entrypoints": [
     "static/css/main.03098289.css",
-    "static/js/main.8d850dd7.js"
+    "static/js/main.a9322ae6.js"
   ]
 }
