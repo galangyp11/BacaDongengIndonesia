@@ -1,12 +1,11 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Navbar';
-import NavbarB from './NavbarB';
-import About from './About';
-import Home from './Home';
-import Cerita from './Cerita';
-import CeritaDetail from './CeritaDetail';
+
+import About from './components/About';
+import CeritaDetail from './components/CeritaDetail';
 import ListDongeng from './components/ListDongeng';
+import NavbarB from './pages/NavbarB';
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -19,19 +18,16 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <Navbar />
               <ListDongeng />
             </Route>
+
             <Route exact path="/about">
-              <Navbar />
               <About />
             </Route>
-            {/* <Route exact path="/home/#section-two">
-              <Cerita />
-            </Route> */}
-            <Route exact path="/cerita/:id">
-              <CeritaDetail />
+
+            <Route exact path="/:id">
               <NavbarB />
+              <CeritaDetail />
             </Route>
           </Switch>
         </div>

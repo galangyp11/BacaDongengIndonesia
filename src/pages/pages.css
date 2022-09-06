@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Tillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Tillana:wght@500&display=swap');
+
+.cerita-detail{
+  overflow: hidden;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.dongeng-detail {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+
+    background-image: url(./img/opening.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.judul-dongeng-opening {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbarb {
+    position: fixed;
+    bottom: 0;
+    padding-top: 0px;
+    background-color: #133B5C;
+    width: 100%;
+    height: 30px;
+    z-index: 5;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  }
+  
+  .navbarb a {
+    padding: 5px;
+  }
+
+  .navbarb1 button {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border: none;
+    background-color: #1c5e94;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-radius: 24px;
+    transition: .1s;
+
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbarb1 button:hover{
+    background-color: rgb(104, 170, 197);
+    box-shadow: rgba(0, 0, 0, 0.30) 2.4px 2.4px 3.2px;
+
+  }
+
+  .beranda {
+    background-image: url(./img/beranda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+
+    float: left;
+  }
+
+  .bBack {
+    background-image: url(./img/btback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+
+    float: left;
+  }
+
+  .bNext {
+    background-image: url(./img/btnext.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+
+    float: right;
+  }
+
+  .judul-navbar{
+    color: white;
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .halaman-navbar{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+  }
+
+.judul-dongeng {
+    position: relative;
+    text-align: left;
+    margin: 0;
+    border: 1px solid purple;
+    width: 30%;
+  
+    padding-left: 15px;
+}
+
+.nomor-halaman {
+  float: center;
+}
+
+.isi-dongeng {
+  padding: 20px;
+  white-space: pre-line; 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+
+  background-image: url(./img/bg-isi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 101%;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 1;
+}
+
+.gambar{
+  width: 100%;
+  height: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: -1;
+}
+
+.gambar.hal1{
+  background-image: url(./img/gambar-hal1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.isi-dongeng.hal1 {
+    text-align: center;
+    padding-top: 200px;
+    width: 50vw;
+    height: 97vh;
+}
+
+.gambar.hal2{
+  background-image: url(./img/gambar-hal2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+
+}
+
+.isi-dongeng.hal2 {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  padding-top: 50px;
+  width: 100vw;
+  height: 200px;
+}
+
+.gambar.hal3{
+  background-image: url(./img/gambar-hal3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+
+}
+
+.isi-dongeng.hal3 {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  padding-top: 80px;
+  width: 100vw;
+  height: 200px;
+}
+
+.gambar.hal4-1{
+  background-image: url(./img/gambar-hal4.1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+}
+
+.gambar.hal4-2{
+  background-image: url(./img/gambar-hal4.2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+  z-index: -2;
+}
+
+.gambar.hal4-3{
+  background-image: url(./img/gambar-hal4.3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+  z-index: -3;
+}
+
+.isi-dongeng.hal4 {
+  float: right;
+  text-align: center;
+  padding-top: 200px;
+  width: 50vw;
+  height: 97vh;
+}
+
+.gambar.hal5-1{
+  background-image: url(./img/gambar-hal5.1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+}
+
+.gambar.hal5-2{
+  background-image: url(./img/gambar-hal5.2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+  z-index: -2;
+}
+
+.gambar.hal5-3{
+  background-image: url(./img/gambar-hal5.3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+  z-index: -3;
+}
+
+.gambar.hal5-4{
+  background-image: url(./img/gambar-hal5.4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  height: 100vh;
+  z-index: -4;
+}
+
+.isi-dongeng.hal5 {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  padding-top: 60px;
+  width: 100vw;
+  height: 200px;
+}
+
+.gambar.hal6{
+  background-image: url(./img/gambar-hal6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-bottom: 700px;
+}
+
+.isi-dongeng.hal6 {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  padding-top: 50px;
+  width: 100vw;
+  height: 200px;
+}
+
+.gambar.hal7-1{
+  background-image: url(./img/gambar-hal7.1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.gambar.hal7-2{
+  background-image: url(./img/gambar-hal7.2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  z-index: -2;
+}
+
+.gambar.hal7-3{
+  background-image: url(./img/gambar-hal7.3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  z-index: -3;
+}
+
+.gambar.hal7-4{
+  background-image: url(./img/gambar-hal7.4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  z-index: -4;
+}
+
+.isi-dongeng.hal7 {
+  text-align: center;
+  padding-top: 200px;
+  width: 50vw;
+  height: 97vh;
+}
+
+.gambar.hal8{
+  background-image: url(./img/gambar-hal8.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-bottom: 700px;
+}
+
+.isi-dongeng.hal8 {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  padding-top: 50px;
+  width: 100vw;
+  height: 200px;
+}
+
+.gambar.hal9{
+  background-image: url(./img/gambar-hal9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-bottom: 700px;
+}
+
+.isi-dongeng.hal9 {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  padding-top: 50px;
+  width: 100vw;
+  height: 200px;
+}
+
+.gambar.hal10{
+  background-image: url(./img/gambar-hal10.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.isi-dongeng.hal10 {
+  float: right;
+  text-align: center;
+  padding-top: 200px;
+  width: 50vw;
+  height: 97vh;
+}
+
+.closing {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: absolute;
+
+  background-color: #06283D;
+}
+
+.closing-selesai {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  color: white;
+  letter-spacing: 5px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.closing-button{
+  overflow: hidden;
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.baca-lagi {   
+  font-size: 16px;
+  width: 150px;
+  height: 48px;
+
+  border-radius: 48px;
+  border: none;
+  background-color: #1c5e94;
+  box-shadow: 4px 4px 0px #d8d8d8;
+  cursor: pointer;
+  position: relative;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+
+.hal-chat-kancil{
+  background-color: #C8E8ED;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  z-index: -2;
+}
+
+.hal-chat-paktani{
+  background-color: #FFBCBC;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  z-index: -2;
+}
+
+.chat-box {
+  position: fixed;
+  bottom: 25px;
+  width: 100vw;
+  height: 200px;
+
+  z-index: 5;
+}
+
+.chat-box.kiri{
+  background-image: url(./img/TB_Kancil.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.chat-box.kanan{
+  background-image: url(./img/TB_PakTani.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.chat-box-text{
+  font-family: 'Tillana', cursive;
+  font-size: 20px;
+  padding-top: 100px;
+  color: whitesmoke;
+}
+
+.kancil{
+  position: absolute;
+  bottom: 30px;
+  width: 500px;
+  height: 500px;
+  z-index: 4;
+
+  background-image: url(./img/chat_box2.png);
+  background-repeat: no-repeat;
+  background-size: 500px 100%;
+  background-position: center;
+}
+
+.paktani{
+  position: absolute;
+  bottom: 30px;
+  width: 500px;
+  height: 600px;
+  right: 0;
+  z-index: 4;
+
+  background-image: url(./img/chat_box6.png);
+  background-repeat: no-repeat;
+  background-size: 500px 100%;
+  background-position: center;
+}
+
+.nametag-kancil{
+  width: 200px;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 27px;
+
+  font-family: 'Nunito', sans-serif;
+}
+
+.nametag-paktani{
+  width: 200px;
+  right: 0;
+  margin-top: 27px;
+  margin-right: 115px;
+  position: absolute;
+  
+  font-family: 'Nunito', sans-serif;
+}
+
+.lingkaran{
+  background-image: url(./img/lingkaran.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-top: 200px;
+  width: 500px;
+  height: 500px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 1;
+}
+
+.segienam{
+  background-image: url(./img/segienam.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-left: 700px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 1;
+}
+
+.bintang{
+  background-image: url(./img/bintang.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-left: 1150px;
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 1;
+}
+
+.lingkaranpt{
+  background-image: url(./img/lingkaranpt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-top: -20px;
+  margin-left: -20px;
+  width: 300px;
+  height: 300px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 1;
+}
+
+
+.segienampt{
+  background-image: url(./img/segienampt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-top: 200px;
+  margin-left: 1050px;
+  width: 500px;
+  height: 500px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 1;
+}
+
+.bintangpt{
+  background-image: url(./img/bintangpt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-left: 600px;
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+}

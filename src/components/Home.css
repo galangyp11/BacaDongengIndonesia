@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Home*/
+.home {
+  width: 100%;
+  max-width: 100vw;
+
+  height: 100%;
+  background-image: url(../img/home/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color:#06283D;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#133B5C;
+  border-radius: 20px;
+  border: 3px solid #06283D;
+}
+
+.bg-1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  height: 100vh;
+}
+
+.matahari{
+  background-image: url(../img/home/matahari.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: -80px;
+  top: -50px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  z-index: 1;
+
+}
+
+.pohon {
+  background-image: url(../img/home/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.tebing {
+  background-image: url(../img/home/bg-4.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+
+  margin-top: 5px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+}
+
+.logo-home {
+  background-image: url(../img/home/Logo-BDI.png);
+  background-size: 350px 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 0;
+  margin-top: 200px;
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+  z-index: 5;
+}
+
+.hoverMulai{
+  position: absolute;
+
+  top: 180px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+button.mulai {   
+    
+    font-size: 16px;
+    width: 200px;
+    height: 48px;
+
+    border-radius: 48px;
+    color: #fff;
+    background-color: #66ccff;
+    border: none;
+    box-shadow: 4px 4px #d8d8d8;
+    cursor: pointer;
+    
+    position: relative;
+}
+
+#section-one{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+#section-two{ 
+  top: 0;
+  padding: 100px;
+  width: 100%; 
+  height: 100vh;
+
+  background-color: #06283D;
+
+  overflow: hidden;
+}
+
+.list-judul{
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 40px;
+  color: white;
+
+  font-family: "poppins", sans-serif;
+
+  z-index: 5;
+}
+
+.list{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  height: 450px;
+
+  display: inline-flex;
+  flex-direction: row;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease-out;
+  background-color: #66ccff;
+}
+
+.segera{
+  color: white;
+  position: absolute;
+  font-size: 30px;
+
+  cursor: default;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hoverList:hover .overlay {
+  opacity: 1;
+}
+.hoverList{
+  width: 350px;
+  height: 300px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+}
+
+.judul-dongeng {
+  border: none;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: #333;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.home-tentang {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+
+  background-color: #133B5C;
+  bottom: -100vh;
+}
+
+.lingkaran{
+  background-image: url(../img/home/bulat.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-top: -100px;
+  width: 500px;
+  height: 500px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: -1;
+}
+
+.segienam{
+  background-image: url(../img/home/segienam.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-left: 600px;
+  margin-top: -300px;
+  width: 100px;
+  height: 100px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: -1;
+}
+
+.bintang{
+  background-image: url(../img/home/bintang.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  margin-left: 1250px;
+  margin-top: -400px;
+  width: 250px;
+  height: 250px;
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: -1;
+}
