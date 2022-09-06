@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BacaDongengIndonesia/static/css/main.03098289.css",
-    "main.js": "/BacaDongengIndonesia/static/js/main.fffda93c.js",
+    "main.js": "/BacaDongengIndonesia/static/js/main.8d850dd7.js",
     "static/media/gambar-hal4.3.png": "/BacaDongengIndonesia/static/media/gambar-hal4.3.9228994f4778670970ea.png",
     "static/media/bg-isi.png": "/BacaDongengIndonesia/static/media/bg-isi.0db5223d9171c213ec8e.png",
     "static/media/opening.jpg": "/BacaDongengIndonesia/static/media/opening.850491962f60cd590e38.jpg",
@@ -42,10 +42,10 @@
     "static/media/lingkaranpt.png": "/BacaDongengIndonesia/static/media/lingkaranpt.e0b691060a1fbc8c1868.png",
     "index.html": "/BacaDongengIndonesia/index.html",
     "main.03098289.css.map": "/BacaDongengIndonesia/static/css/main.03098289.css.map",
-    "main.fffda93c.js.map": "/BacaDongengIndonesia/static/js/main.fffda93c.js.map"
+    "main.8d850dd7.js.map": "/BacaDongengIndonesia/static/js/main.8d850dd7.js.map"
   },
   "entrypoints": [
     "static/css/main.03098289.css",
-    "static/js/main.fffda93c.js"
+    "static/js/main.8d850dd7.js"
   ]
 }
