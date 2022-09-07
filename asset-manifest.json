@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BacaDongengIndonesia/static/css/main.03098289.css",
-    "main.js": "/BacaDongengIndonesia/static/js/main.a9322ae6.js",
+    "main.css": "/BacaDongengIndonesia/static/css/main.a870ef70.css",
+    "main.js": "/BacaDongengIndonesia/static/js/main.562ef1e1.js",
     "static/media/gambar-hal4.3.png": "/BacaDongengIndonesia/static/media/gambar-hal4.3.9228994f4778670970ea.png",
     "static/media/bg-isi.png": "/BacaDongengIndonesia/static/media/bg-isi.0db5223d9171c213ec8e.png",
     "static/media/opening.jpg": "/BacaDongengIndonesia/static/media/opening.850491962f60cd590e38.jpg",
@@ -32,20 +32,22 @@
     "static/media/gambar-hal7.1.png": "/BacaDongengIndonesia/static/media/gambar-hal7.1.fd7a8e0150baddfda03e.png",
     "static/media/matahari.png": "/BacaDongengIndonesia/static/media/matahari.3d7803e476b6eb7469ea.png",
     "static/media/gambar-hal7.2.png": "/BacaDongengIndonesia/static/media/gambar-hal7.2.dbcb0471eb50731d448b.png",
-    "static/media/bintang.png": "/BacaDongengIndonesia/static/media/bintang.45c5eaa06f3e6770fabe.png",
-    "static/media/segienam.png": "/BacaDongengIndonesia/static/media/segienam.6c6405cad0854fa2d44a.png",
+    "static/media/bintang-home.png": "/BacaDongengIndonesia/static/media/bintang-home.f2dd5fb20e8082e25c3c.png",
+    "static/media/segienam-home.png": "/BacaDongengIndonesia/static/media/segienam-home.4f9d18872c00d9513618.png",
+    "static/media/segienam-kancil.png": "/BacaDongengIndonesia/static/media/segienam-kancil.6c6405cad0854fa2d44a.png",
     "static/media/segienampt.png": "/BacaDongengIndonesia/static/media/segienampt.b85348060c75ffdc3ca9.png",
     "static/media/awan6.png": "/BacaDongengIndonesia/static/media/awan6.3297beb095501182b87f.png",
-    "static/media/bulat.png": "/BacaDongengIndonesia/static/media/bulat.4b9239ea61c3c984e547.png",
+    "static/media/bintang-kancil.png": "/BacaDongengIndonesia/static/media/bintang-kancil.45c5eaa06f3e6770fabe.png",
+    "static/media/bulat-home.png": "/BacaDongengIndonesia/static/media/bulat-home.4b9239ea61c3c984e547.png",
     "static/media/bintangpt.png": "/BacaDongengIndonesia/static/media/bintangpt.d652caa00a3a042c13fa.png",
-    "static/media/lingkaran.png": "/BacaDongengIndonesia/static/media/lingkaran.734a3dfc9438ed237727.png",
+    "static/media/lingkaran-kancil.png": "/BacaDongengIndonesia/static/media/lingkaran-kancil.734a3dfc9438ed237727.png",
     "static/media/lingkaranpt.png": "/BacaDongengIndonesia/static/media/lingkaranpt.e0b691060a1fbc8c1868.png",
     "index.html": "/BacaDongengIndonesia/index.html",
-    "main.03098289.css.map": "/BacaDongengIndonesia/static/css/main.03098289.css.map",
-    "main.a9322ae6.js.map": "/BacaDongengIndonesia/static/js/main.a9322ae6.js.map"
+    "main.a870ef70.css.map": "/BacaDongengIndonesia/static/css/main.a870ef70.css.map",
+    "main.562ef1e1.js.map": "/BacaDongengIndonesia/static/js/main.562ef1e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.03098289.css",
-    "static/js/main.a9322ae6.js"
+    "static/css/main.a870ef70.css",
+    "static/js/main.562ef1e1.js"
   ]
 }
