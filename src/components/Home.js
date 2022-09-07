@@ -186,19 +186,19 @@ const Home = ({ dongengs }) => {
                                             </motion.div>   
                             </div>
                             <motion.div
-                                className="lingkaran"
+                                className="lingkaran-home"
                                 animate={{ rotate:[0, 360] }}
                                 transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
                             />
 
                             <motion.div
-                                className="segienam"
+                                className="segienam-home"
                                 animate={{ rotate:[0, 360], x:[null, 90, 0], y:[null, 90, 0] }}
                                 transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
                             />
 
                             <motion.div
-                                className="bintang"
+                                className="bintang-home"
                                 animate={{ rotate:[0, 360], y:[null, 60, 0] }}
                                 transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
                             />

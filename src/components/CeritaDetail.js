@@ -30,18 +30,19 @@ function CeritaDetail () {
 
     const [nomorHal, setNomorHal] = useState(1);
     const [isOpening, setIsOpening] = useState(true);
-    const [isDisable, setIsDisable] = useState(true);
+    const [isDisableBack, setIsDisableBack] = useState(true);
+    const [isDisableNext, setIsDisableNext] = useState(false)
     const [halamans, setHalamans] = useState();
 
-    useEffect(() => {
-        getDongengById();
-    }, []);
+    // useEffect(() => {
+    //     getDongengById();
+    // }, []);
     
-    const getDongengById = async () => {
-        const response = await axios.get(`http://localhost:3011/${id}`);
-        setDongengById(response.data);
-        console.log(response.data);
-    }
+    // const getDongengById = async () => {
+    //     const response = await axios.get(`http://localhost:3011/${id}`);
+    //     setDongengById(response.data);
+    //     console.log(response.data);
+    // }
 
     const dongeng = dongengById;
     
@@ -50,7 +51,7 @@ function CeritaDetail () {
         setIsOpening(false)
 
         if (nomorHal >= 1 ) {
-            setIsDisable(false)
+            setIsDisableBack(false)
         }
 
         if (isOpening === isOpening) {
@@ -122,7 +123,8 @@ function CeritaDetail () {
                 
             }                  
             else {
-                setHalamans( <Closing/> )
+                setHalamans( <Closing nomorHal={nomorHal} /> )
+                setIsDisableNext(true)
             }
              
         }
@@ -134,7 +136,11 @@ function CeritaDetail () {
         setIsOpening(false)
 
         if(nomorHal === 2) {
-            setIsDisable(true)
+            setIsDisableBack(true)
+        }
+
+        if(nomorHal <= 20) {
+            setIsDisableNext(false)
         }
 
         if (isOpening === false) {
@@ -227,12 +233,8 @@ function CeritaDetail () {
  
     return ( 
         <div>       
-            
-            {opening}
-            {console.log(isDisable)}
-            {console.log(nomorHal)}
-           
-            <NavbarB handleNext={handleNext} handleBack={handleBack} dongengJudul={dongeng.judul_dongeng} nomorHal={nomorHal} isDisable={isDisable}/>  
+            {opening}           
+            <NavbarB handleNext={handleNext} handleBack={handleBack} dongengJudul={dongeng.judul_dongeng} nomorHal={nomorHal} isDisableBack={isDisableBack} isDisableNext={isDisableNext}/>  
         </div>
      );
 }

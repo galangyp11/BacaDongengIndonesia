@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "./pages.css";
 
-const Closing = () => {
+const Closing = ({nomorHal}) => {
 
     function refresh(){
         window.location.reload(); 
@@ -11,6 +11,7 @@ const Closing = () => {
     return ( 
         <div className="closing">
             <h1 className="closing-selesai">SELESAI</h1>
+            {console.log(nomorHal)}
             <div className="closing-button">
                 <motion.div
                     className="baca-lagi"

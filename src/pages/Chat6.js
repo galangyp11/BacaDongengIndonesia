@@ -9,7 +9,7 @@ const Chat6 = ({ dongengChat6 }) => {
             <motion.div 
                 className="paktani"
                 initial={{ opacity:0 }}
-                animate={{ opacity:1, x:[80,0], y:[80,0] }}
+                animate={{ opacity:1, x:[-80,0], y:[80,0] }}
                 transition={{ ease: "easeOut", duration:1 }}
             >
             </motion.div> 

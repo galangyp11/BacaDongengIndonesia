@@ -542,7 +542,7 @@
 }
 
 .lingkaran{
-  background-image: url(./img/lingkaran.png);
+  background-image: url(./img/lingkaran-kancil.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -557,7 +557,7 @@
 }
 
 .segienam{
-  background-image: url(./img/segienam.png);
+  background-image: url(./img/segienam-kancil.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -573,7 +573,7 @@
 }
 
 .bintang{
-  background-image: url(./img/bintang.png);
+  background-image: url(./img/bintang-kancil.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
