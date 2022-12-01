@@ -15,8 +15,8 @@ const ListDongeng = ( ) => {
     } 
 
     return ( 
-        <div>
-            <Home dongengs={dongengs}/>
+        <div>       
+            <Home dongengs={dongengs}/>         
         </div>
      );
  }

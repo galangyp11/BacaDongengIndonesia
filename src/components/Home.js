@@ -132,6 +132,7 @@ const Home = ({ dongengs }) => {
 
                 <section id="section-one">
                         <div className="logo-home">
+                            
                                 <motion.div
                                     className="hoverMulai"
                                     whileHover={{ scale: 1.1 }}
@@ -139,9 +140,12 @@ const Home = ({ dongengs }) => {
                                 >
                                     <HashLink to="#section-two">
                                         <button className="mulai">Mulai</button>
+                                        
                                     </HashLink>
                                 </motion.div>
+                                
                         </div>
+                        
                 </section>
 
                 <section id="section-two">

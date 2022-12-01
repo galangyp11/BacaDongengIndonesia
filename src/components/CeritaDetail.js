@@ -31,7 +31,7 @@ function CeritaDetail () {
     const [nomorHal, setNomorHal] = useState(1);
     const [isOpening, setIsOpening] = useState(true);
     const [isDisableBack, setIsDisableBack] = useState(true);
-    const [isDisableNext, setIsDisableNext] = useState(false)
+    const [isDisableNext, setIsDisableNext] = useState(false);
     const [halamans, setHalamans] = useState();
 
     // useEffect(() => {
