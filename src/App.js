@@ -30,7 +30,7 @@ function App() {
           <Switch>
             <Route exact path="/">
               {!isScreen && <AlertWindow/>}
-              <ListDongeng/>
+          
             </Route>
 
             <Route exact path="/about">
