@@ -22,15 +22,17 @@ function App() {
     .addEventListener('change', e => setIsScreen( e.matches ));
   }, []);
 
+
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         
         <div className="content">
           <Switch>
-            <Route exact path="/">
-              {!isScreen && <AlertWindow/>}
-          
+            <Route exact path="/" >
+              {!isScreen ? <AlertWindow/> : <ListDongeng/>}
+              
             </Route>
 
             <Route exact path="/about">
