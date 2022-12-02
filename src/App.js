@@ -36,14 +36,12 @@ function App() {
             </Route>
 
             <Route exact path="/about">
-              {!isScreen && <AlertWindow/>}
-              <About />
+            {!isScreen ? <AlertWindow/> : <About/>}
+           
             </Route>
 
             <Route exact path="/:id">
-              {!isScreen && <AlertWindow/>}
-              <NavbarB />
-              <CeritaDetail />
+              {!isScreen ? <AlertWindow/> : <CeritaDetail />}
             </Route>
           </Switch>
         </div>
