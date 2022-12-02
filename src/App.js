@@ -31,17 +31,18 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/" >
-              {/* {isScreen ? <AlertWindow/> : <ListDongeng/>} */}
-              <AlertWindow/>
+              {isScreen ? <AlertWindow/> : <ListDongeng/>}
+        
             </Route>
 
             <Route exact path="/about">
-            {!isScreen ? <AlertWindow/> : <About/>}
+              {isScreen ? <AlertWindow/> : <About/>}
            
             </Route>
 
             <Route exact path="/:id">
               {!isScreen ? <AlertWindow/> : <CeritaDetail />}
+
             </Route>
           </Switch>
         </div>
