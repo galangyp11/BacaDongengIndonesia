@@ -31,8 +31,8 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/" >
-              {!isScreen ? <AlertWindow/> : <ListDongeng/>}
-              
+              {isScreen ? <AlertWindow/> : <ListDongeng/>}
+
             </Route>
 
             <Route exact path="/about">
