@@ -29,12 +29,12 @@ function App() {
         <div className="content">
           <Switch>
             <Route exact path="/" >
-              {/* {isScreen ? <AlertWindow/> : <ListDongeng/>} */}
-              <AlertWindow/>
+              {!isScreen ? <AlertWindow/> : <ListDongeng/>}
+              {/* <AlertWindow/> */}
             </Route>
 
             <Route exact path="/about">
-              {isScreen ? <AlertWindow/> : <About/>}
+              {!isScreen ? <AlertWindow/> : <About/>}
            
             </Route>
 
