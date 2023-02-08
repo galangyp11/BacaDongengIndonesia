@@ -17,10 +17,6 @@ function NavbarB ({ handleNext, handleBack, isDisableBack, isDisableNext, dongen
                 <p className="judul-navbar">{dongengJudul}</p>
                 <p className="halaman-navbar">Halaman {nomorHal}</p>
                 <button className="bNext" onClick={handleNext} disabled={isDisableNext}></button>
-                {console.log("tombol back")}
-                {console.log(isDisableBack)}
-                {console.log("tombol next")}
-                {console.log(isDisableNext)}
             </div>
         </nav>
       );
