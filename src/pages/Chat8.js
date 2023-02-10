@@ -1,10 +1,17 @@
 import {motion} from "framer-motion";
 import  TypeAnimation from "react-type-animation";
 import "./pages.css";
+import Sound from "react-sound";
+import soundChat8 from '.././sound/chat8.mp3';
 
 const Chat8 = ({ dongengChat8 }) => {
     return ( 
         <div className="cerita-detail">
+            <Sound
+                url={soundChat8}
+                playStatus={Sound.status.PLAYING}
+                playFromPosition={300}
+            />
         <div className="hal-chat-kancil">
        <motion.div 
             className="kancil"

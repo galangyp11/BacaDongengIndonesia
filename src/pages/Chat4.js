@@ -1,10 +1,17 @@
 import { motion } from "framer-motion";
 import  TypeAnimation from "react-type-animation";
 import "./pages.css";
+import Sound from "react-sound";
+import soundChat4 from '.././sound/chat4.mp3';
 
 const Chat4 = ({ dongengChat4 }) => {
     return ( 
         <div className="cerita-detail">
+            <Sound
+                url={soundChat4}
+                playStatus={Sound.status.PLAYING}
+                playFromPosition={300}
+            />
             <div className="hal-chat-kancil">
            <motion.div 
                 className="kancil"

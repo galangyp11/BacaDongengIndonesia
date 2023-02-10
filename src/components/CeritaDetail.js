@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Sound from "react-sound";
+// import Sound from "react-sound";
 
 import Opening from "../pages/Opening";
 import Halaman1 from "../pages/Halaman1";
@@ -22,7 +22,7 @@ import Chat8 from "../pages/Chat8";
 import Chat10 from "../pages/Chat10";
 import Closing from "../pages/Closing";
 import NavbarB from "../pages/NavbarB";
-import ceritaBS from "../sound/bs-kancil.mp3"
+// import ceritaBS from "../sound/bs-kancil.mp3"
 
 import axios from "axios";
 
@@ -235,12 +235,12 @@ function CeritaDetail () {
  
     return ( 
         <div>
-            <Sound
+            {/* <Sound
                 url={ceritaBS}
                 playStatus={Sound.status.PLAYING}
                 playFromPosition={300}
                 loop={true}
-            />       
+            />        */}
             {opening}           
             <NavbarB handleNext={handleNext} handleBack={handleBack} dongengJudul={dongeng.judul_dongeng} nomorHal={nomorHal} isDisableBack={isDisableBack} isDisableNext={isDisableNext}/>  
         </div>

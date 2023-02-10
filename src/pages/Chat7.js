@@ -1,10 +1,17 @@
 import {motion} from "framer-motion";
 import  TypeAnimation from "react-type-animation";
 import "./pages.css";
+import Sound from "react-sound";
+import soundChat7 from '.././sound/chat7.mp3';
 
 const Chat7 = ({ dongengChat7 }) => {
     return ( 
         <div className="cerita-detail">
+            <Sound
+                url={soundChat7}
+                playStatus={Sound.status.PLAYING}
+                playFromPosition={300}
+            />
             <div className="hal-chat-paktani">
             <motion.div 
                 className="paktani"

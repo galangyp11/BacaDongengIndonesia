@@ -1,10 +1,26 @@
 import { motion } from "framer-motion";
-import  TypeAnimation from "react-type-animation";
+import TypeAnimation from "react-type-animation";
+import Sound from "react-sound";
 import "./pages.css";
+
+import soundChat2 from '.././sound/chat2.mp3';
+import bsKancil from '.././sound/bs-kancil.mp3';
+
 
 const Chat2 = ({ dongengChat2 }) => {
     return ( 
         <div className="cerita-detail">
+            <Sound
+                url={soundChat2}
+                playStatus={Sound.status.PLAYING}
+                playFromPosition={300}
+            />
+            {/* <Sound
+                url={bsKancil}
+                playStatus={Sound.status.PLAYING}
+                playFromPosition={300}
+                loop={true}
+            /> */}
             <div className="hal-chat-kancil">
             <motion.div 
                 className="kancil"
