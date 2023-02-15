@@ -13,12 +13,12 @@ import { useState, useEffect } from 'react';
 
 function App() {
     const [isScreen, setIsScreen] = useState(
-    window.matchMedia("(min-width: 1366px) ").matches
+    window.matchMedia("(min-width: 1280px) ").matches
   )
 
   useEffect(() => {
     window
-    .matchMedia("(min-width: 1366px) ")
+    .matchMedia("(min-width: 1280px) ")
     .addEventListener('change', e => setIsScreen( e.matches ));
   }, []);
 

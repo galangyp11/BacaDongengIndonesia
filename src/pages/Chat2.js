@@ -15,12 +15,12 @@ const Chat2 = ({ dongengChat2 }) => {
                 playStatus={Sound.status.PLAYING}
                 playFromPosition={300}
             />
-            {/* <Sound
+            <Sound
                 url={bsKancil}
                 playStatus={Sound.status.PLAYING}
                 playFromPosition={300}
                 loop={true}
-            /> */}
+            />
             <div className="hal-chat-kancil">
             <motion.div 
                 className="kancil"
