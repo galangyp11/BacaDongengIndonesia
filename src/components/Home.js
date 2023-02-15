@@ -25,7 +25,7 @@ const Home = ({ dongengs }) => {
             <Sound
                 url={homeBS}
                 playStatus={Sound.status.PLAYING}
-                playFromPosition={300}
+                playFromPosition={100}
                 loop={true}
             />
             <div className="bg-1">
