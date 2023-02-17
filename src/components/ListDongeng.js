@@ -1,6 +1,9 @@
 import { useState, useEffect} from "react";
 import axios from "axios";
+import Sound from "react-sound";
 import Home from "./Home";
+
+import homeBS from "../sound/bs-beranda.mp3"
 
 const ListDongeng = ( ) => {
     const [dongengs, setDongengs] = useState([]);
@@ -15,7 +18,13 @@ const ListDongeng = ( ) => {
     } 
 
     return ( 
-        <div>       
+        <div>
+            <Sound
+                url={homeBS}
+                playStatus={Sound.status.PLAYING}
+                playFromPosition={100}
+                loop={true}
+            />       
             <Home dongengs={dongengs}/>         
         </div>
      );

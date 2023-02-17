@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import { HashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
-import Sound from "react-sound";
 
 import gambar1 from "../img/home/Thumbnail-kancil.png"
 import gambar2 from "../img/home/Thumbnail-sangkuriang.png"
@@ -13,7 +12,7 @@ import awan3 from "../img/home/awan3.png"
 import awan4 from "../img/home/awan4.png"
 import awan5 from "../img/home/awan5.png"
 import awan6 from "../img/home/awan6.png"
-import homeBS from "../sound/bs-beranda.mp3"
+
 
 import "./Home.css";
 import Opening from "../pages/Opening";
@@ -22,12 +21,7 @@ const Home = ({ dongengs }) => {
     
     return (
         <div className="home">
-            <Sound
-                url={homeBS}
-                playStatus={Sound.status.PLAYING}
-                playFromPosition={100}
-                loop={true}
-            />
+       
             <div className="bg-1">
                 <MouseParallaxContainer  
                     className="parallax-container" 
