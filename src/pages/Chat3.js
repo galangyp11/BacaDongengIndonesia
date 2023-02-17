@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import  TypeAnimation from "react-type-animation";
 import "./pages.css";
+
 import Sound from "react-sound";
 import soundChat3 from '.././sound/chat3.mp3';
 

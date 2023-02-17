@@ -4,7 +4,7 @@ import Sound from "react-sound";
 import "./pages.css";
 
 import soundChat2 from '.././sound/chat2.mp3';
-import bsKancil from '.././sound/bs-kancil.mp3';
+import bsKancil from '.././sound/bs-kancil-pak-tani.mp3';
 
 
 const Chat2 = ({ dongengChat2 }) => {
